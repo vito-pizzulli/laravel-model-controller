@@ -1,3 +1,3 @@
 <header>
-    <h2>I'm the Header!</h2>
+    <h1>Laravel Model Controller</h1>
 </header>
