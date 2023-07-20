@@ -9,7 +9,7 @@
                 <div class="card-body text-center">
                     <p><span>Title:</span> {{ $movie['title'] }}</p>
                     <hr>
-                    <p><span>Original title:</span> {{ $movie['original_title'] }}</p>W
+                    <p><span>Original title:</span> {{ $movie['original_title'] }}</p>
                     <hr>
                     <p><span>Nationality:</span> {{ $movie['nationality'] }}</p>
                     <hr>
