@@ -9,6 +9,6 @@ use App\Models\Movie;
 class GuestPageController extends Controller {
     public function home() {
         $movies = Movie::all();
-        return view('guest.home', compact('movies'));
+        return compact('movies');
     }
 }
