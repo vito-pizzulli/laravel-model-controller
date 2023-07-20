@@ -1,3 +1,3 @@
 <header>
-    <h1>Laravel Model Controller</h1>
+    <h1 class="p-3 text-center">Laravel Model Controller</h1>
 </header>
