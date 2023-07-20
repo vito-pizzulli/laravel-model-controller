@@ -9,7 +9,7 @@
                 <div class="card-body text-center">
                     <p><span>Title:</span> {{ $movie['title'] }}</p>
                     <hr>
-                    <p><span>Original title:</span> {{ $movie['original_title'] }}</p>
+                    <p><span>Original title:</span> {{ $movie['original_title'] }}</p>W
                     <hr>
                     <p><span>Nationality:</span> {{ $movie['nationality'] }}</p>
                     <hr>
@@ -20,7 +20,7 @@
             </div>
         @endforeach
     </div>
-    <div class="w-50 m-auto">
+    <div class="w-25 m-auto">
         <img src="{{ Vite::asset('resources/img/undertale.gif') }}" alt="Undertale Gif" class="w-100"> {{-- credits to Joe Burak (source: https://www.artstation.com/artwork/lLNWO) --}}
     </div>
 @endsection
